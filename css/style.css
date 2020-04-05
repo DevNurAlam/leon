@@ -1,0 +1,318 @@
+/*--START BASIC CSS--*/
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins',sans-serif;
+	color: #333;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat',sans-serif;
+}
+.container{
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0px auto;
+}
+.container:before,
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col-10{
+	width: 10%;
+	padding: 0 15px;
+	float: left;
+}
+.col-16{
+	width: 16.66%;
+	padding: 0 15px;
+	float: left;
+}
+.col-20{
+	width: 20%;
+	padding: 0 15px;
+	float: left;
+}
+.col-25{
+	width: 25%;
+	padding: 0 15px;
+	float: left;
+}
+.col-30{
+	width: 30%;
+	padding: 0 15px;
+	float: left;
+}
+.col-33{
+	width: 33.33%;
+	padding: 0 15px;
+	float: left;
+}
+.col-50{
+	width: 50%;
+	padding: 0 15px;
+	float: left;
+}
+.col-70{
+	width: 70%;
+	padding: 0 15px;
+	float: left;
+}
+.col-80{
+	width: 80%;
+	padding: 0 15px;
+	float: left;
+}
+p{
+	font-size: 14px;
+}
+.section-padding{
+	padding: 120px 0;
+}
+/*--END BASIC CSS--*/
+
+
+
+
+/* Start Menu */
+header{
+	background-color: #fff;
+	padding: 23px 0;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 15px;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #333;
+	transition: .3s;
+	
+
+}
+.menu ul li a:hover{
+	color: #FF5951;
+	transition: .3s;
+}
+/*--END Menu--*/
+
+/*--START Home--*/
+.home{
+	background: url('../images/c1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.home-content h1 {
+	font-size: 110px;
+	color: #fff;
+	padding-bottom: 50px;
+	margin-top: -200px;
+	line-height:100px;
+	text-align: center;
+}
+
+section#home:before{
+	content: "";
+	position: absolute;
+	background: #000;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	opacity: .3;
+	z-index: -1;
+}
+
+.home-content p {
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+/*--END Home--*/
+
+/*--START Blog--*/
+.about-1{
+	color: #DCDCDC;
+	padding: 160px 0;
+}
+.about:before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%
+	left:0;
+	background: #000;
+	opacity: 0.5;
+	right: 0;
+	z-index: -1;
+}
+.about .title h3{
+	color: black;
+}
+.about .about-content{
+	padding-bottom: 80px;
+}
+.about-item {
+	text-align: center;
+	color: black;
+	padding: 0 30px;
+}
+
+.about h3 {
+	font-size: 22px;
+	padding: 20px 0;
+}
+
+.about-item p {
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+.about-content img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+/*--END Blog--*/
+
+/*--START Blog--*/
+.blog{
+	background-color: #fafafa;
+}
+.blog-details {
+    font-size: 25px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.blog-details h3 {
+    font-size: 18px;
+    color: #506A85;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.blog-details p {
+    font-size: 14px;
+    padding: 5px 0px;
+    color: #73879C;
+}
+
+.blog-item{
+	margin-bottom: 30px; 
+}
+.blog .title{
+	margin-bottom: 80px; 
+}
+
+.service-image::before {
+    position: absolute;
+    content: "";
+    top: -40px;
+    right: 80px;
+    height: 120%;
+    width: 80px;
+    background: #10CAB7;
+    z-index: -1;
+}
+
+
+.blog-item img {
+    width: 360px;
+    height: 300px;
+}
+/*--END Blog--*/
+.btn {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	background:#00BC9C;
+	padding:15px 50px;
+	border-radius:5px;
+}
+.bt {
+    text-align: center;
+    margin-top: 100px;
+}
+
+span {
+    height: 1px;
+    width: 400px;
+    background: #10cab7;
+    display: inline-block;
+}
+.blog-details p {
+    font-size: 14px;
+    padding: 50px 0px;
+    color: #73879C;
+}
+
+
+#contact{
+	background: #fafafa;
+}
+.contact-title {
+    text-align: center;
+}
+.contact-title p {
+    margin-top: -25px;
+}
+.l-blog-item {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.llblog-image h2 {
+    color: #10cab7;
+    padding: 10px;
+}
+
+.social {
+    text-align: center;
+    padding: 20px;
+}
+.social ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    display: inline-block;
+}
+
+
+footer{
+	background: #2c4755;
+	padding-top: 30px;
+}
+
+footer p{
+	text-align: center;
+	color: #fff;
+	padding-bottom: 20px;
+}
